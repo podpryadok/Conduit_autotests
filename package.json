@@ -1,0 +1,43 @@
+{
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.2.0",
+    "puppeteer": "^1.19.0"
+  },
+  "name": "Conduit_autotests",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --timeout=40000 ./tests"
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "debug": "^3.2.6",
+    "https-proxy-agent": "^2.2.3",
+    "jest": "^24.9.0",
+    "jest-image-snapshot": "^2.9.0",
+    "lcid": "^2.0.0",
+    "lodash": "^4.17.14",
+    "log-symbols": "^2.2.0",
+    "mime": "^2.4.4",
+    "mimic-fn": "^2.1.0",
+    "minimatch": "^3.0.4",
+    "minimist": "^1.2.3",
+    "mkdirp": "^0.5.1",
+    "ms": "^2.1.1",
+    "nice-try": "^1.0.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/podpryadok/Conduit_autotests"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/podpryadok/Conduit_autotests/issues"
+  },
+  "homepage": "https://github.com/podpryadok/Conduit_autotests"
+}
